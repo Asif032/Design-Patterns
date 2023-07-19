@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/creational/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/singletone/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/singletone/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singletone/DatabaseConnection.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
