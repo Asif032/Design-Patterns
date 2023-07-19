@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="" />
+    <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/creational/factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/factory/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +46,20 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factory.Main" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="creational.singletone.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singletone.Main" />
       <module name="Design-Patterns" />
@@ -51,8 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.creational.singletone.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.creational.singletone.Main" />
       </list>
     </recent_temporary>
