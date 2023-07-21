@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioural/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/command/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/command/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/command/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/command/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/CEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/PurchaseApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/state/context/PackageContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/OrderedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/OutForDeliveryState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/PackageState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/ReceivedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +53,33 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="behavioural.state" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asif0\IdeaProjects\Design-Patterns\src\creational\abstract_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavioural.command.Main">
+  <component name="RunManager" selected="Application.behavioural.chain_of_responsibility.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioural.observer.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavioural.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="behavioural.chain_of_responsibility.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.chain_of_responsibility.Main" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioural.chain_of_responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="behavioural.state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.state.Main" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioural.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="behavioural.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioural.strategy.Main" />
       <module name="Design-Patterns" />
@@ -91,46 +126,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.flyweight.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Main" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="structural.proxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.proxy.Main" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.behavioural.chain_of_responsibility.Main" />
       <item itemvalue="Application.behavioural.command.Main" />
+      <item itemvalue="Application.behavioural.state.Main" />
       <item itemvalue="Application.behavioural.strategy.Main" />
-      <item itemvalue="Application.structural.flyweight.Main" />
-      <item itemvalue="Application.structural.proxy.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioural.chain_of_responsibility.Main" />
+        <item itemvalue="Application.behavioural.state.Main" />
         <item itemvalue="Application.behavioural.command.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.behavioural.strategy.Main" />
-        <item itemvalue="Application.structural.proxy.Main" />
-        <item itemvalue="Application.structural.flyweight.Main" />
       </list>
     </recent_temporary>
   </component>
