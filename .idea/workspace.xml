@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/CEO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/chain_of_responsibility/PurchaseApprover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/state/context/PackageContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/OrderedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/OutForDeliveryState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/PackageState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/state/states/ReceivedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/Iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/elements/BookItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/elements/FoodItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/elements/ShoppingCartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/visitors/ConcreteShoppingCartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/visitors/ShoppingCartVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       <recent name="C:\Users\asif0\IdeaProjects\Design-Patterns\src\creational\abstract_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavioural.chain_of_responsibility.Main">
+  <component name="RunManager" selected="Application.behavioural.visitor.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioural.observer.Main" />
       <module name="Design-Patterns" />
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="behavioural.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioural.strategy.Main" />
+    <configuration name="behavioural.visitor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.visitor.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioural.strategy.*" />
+          <option name="PATTERN" value="behavioural.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.behavioural.visitor.Main" />
       <item itemvalue="Application.behavioural.chain_of_responsibility.Main" />
       <item itemvalue="Application.behavioural.command.Main" />
       <item itemvalue="Application.behavioural.state.Main" />
-      <item itemvalue="Application.behavioural.strategy.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioural.visitor.Main" />
         <item itemvalue="Application.behavioural.chain_of_responsibility.Main" />
         <item itemvalue="Application.behavioural.state.Main" />
         <item itemvalue="Application.behavioural.command.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.behavioural.strategy.Main" />
       </list>
     </recent_temporary>
   </component>
