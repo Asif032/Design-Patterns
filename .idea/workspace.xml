@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/SortingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/proxy/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/proxy/ImageProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/proxy/RealImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behavioural/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/command/RemoteControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,7 @@
       <recent name="C:\Users\asif0\IdeaProjects\Design-Patterns\src\creational\abstract_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.behavioural.command.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioural.observer.Main" />
       <module name="Design-Patterns" />
@@ -76,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="behavioural.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioural.strategy.Main" />
+    <configuration name="behavioural.command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.command.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioural.strategy.*" />
+          <option name="PATTERN" value="behavioural.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.facade.Main" />
+    <configuration name="behavioural.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.strategy.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.facade.complex_subsystem.*" />
+          <option name="PATTERN" value="behavioural.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +118,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.behavioural.command.Main" />
       <item itemvalue="Application.behavioural.strategy.Main" />
-      <item itemvalue="Application.structural.facade.Main" />
       <item itemvalue="Application.structural.flyweight.Main" />
       <item itemvalue="Application.structural.proxy.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioural.command.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.behavioural.strategy.Main" />
         <item itemvalue="Application.structural.proxy.Main" />
         <item itemvalue="Application.structural.flyweight.Main" />
-        <item itemvalue="Application.structural.facade.Main" />
       </list>
     </recent_temporary>
   </component>
