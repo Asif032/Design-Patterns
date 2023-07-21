@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioural/Iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/elements/BookItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/elements/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/elements/ShoppingCartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/visitors/ConcreteShoppingCartVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/visitor/visitors/ShoppingCartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/Iterator/ArrayContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/Iterator/ArrayIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/Iterator/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/Iterator/Iterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioural/Iterator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioural/Iterator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +54,13 @@
       <recent name="C:\Users\asif0\IdeaProjects\Design-Patterns\src\creational\abstract_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavioural.visitor.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioural.observer.Main" />
+  <component name="RunManager" selected="Application.behavioural.Iterator.Main">
+    <configuration name="behavioural.Iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.Iterator.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioural.observer.*" />
+          <option name="PATTERN" value="behavioural.Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +121,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.behavioural.Iterator.Main" />
       <item itemvalue="Application.behavioural.visitor.Main" />
       <item itemvalue="Application.behavioural.chain_of_responsibility.Main" />
       <item itemvalue="Application.behavioural.command.Main" />
       <item itemvalue="Application.behavioural.state.Main" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioural.Iterator.Main" />
         <item itemvalue="Application.behavioural.visitor.Main" />
         <item itemvalue="Application.behavioural.chain_of_responsibility.Main" />
         <item itemvalue="Application.behavioural.state.Main" />
         <item itemvalue="Application.behavioural.command.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
