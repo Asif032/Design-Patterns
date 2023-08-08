@@ -1,4 +1,4 @@
-package Task1.ocp;
+package tasks.task1_solid.ocp;
 
 public class TenPercentDiscount implements Discount {
   @Override

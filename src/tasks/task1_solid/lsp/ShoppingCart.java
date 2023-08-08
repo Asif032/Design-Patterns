@@ -1,7 +1,7 @@
-package Task1.lsp;
+package tasks.task1_solid.lsp;
 
-import Task1.ocp.Discount;
-import Task1.srp.Product;
+import tasks.task1_solid.ocp.Discount;
+import tasks.task1_solid.srp.Product;
 
 import java.util.ArrayList;
 import java.util.List;

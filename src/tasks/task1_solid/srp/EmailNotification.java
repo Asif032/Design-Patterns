@@ -1,6 +1,6 @@
-package Task1.srp;
+package tasks.task1_solid.srp;
 
-import Task1.dip.Notification;
+import tasks.task1_solid.dip.Notification;
 
 public class EmailNotification implements Notification {
   @Override

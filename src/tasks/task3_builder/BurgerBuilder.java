@@ -1,4 +1,4 @@
-package Task3;
+package tasks.task3_builder;
 
 public class BurgerBuilder {
   private Burger burger;

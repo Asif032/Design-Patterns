@@ -1,6 +1,6 @@
-package Task1.ocp;
+package tasks.task1_solid.ocp;
 
-import Task1.dip.Notification;
+import tasks.task1_solid.dip.Notification;
 
 public class SMSNotification implements Notification {
   @Override

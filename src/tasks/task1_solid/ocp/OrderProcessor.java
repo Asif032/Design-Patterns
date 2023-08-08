@@ -1,7 +1,7 @@
-package Task1.ocp;
+package tasks.task1_solid.ocp;
 
-import Task1.dip.Notification;
-import Task1.isp.Orderable;
+import tasks.task1_solid.dip.Notification;
+import tasks.task1_solid.isp.Orderable;
 
 public class OrderProcessor {
   private Notification notification;

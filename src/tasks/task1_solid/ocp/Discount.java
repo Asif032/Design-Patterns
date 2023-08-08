@@ -1,4 +1,4 @@
-package Task1.ocp;
+package tasks.task1_solid.ocp;
 
 // Open/Closed Principle (OCP)
 public interface Discount {

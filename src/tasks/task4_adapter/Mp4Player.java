@@ -1,4 +1,4 @@
-package Task4;
+package tasks.task4_adapter;
 
 public class Mp4Player implements AdvancedMediaPlayer {
   @Override

@@ -1,4 +1,4 @@
-package Task3;
+package tasks.task3_builder;
 
 public class Main {
   public static void main(String[] args) {

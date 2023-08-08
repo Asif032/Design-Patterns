@@ -1,14 +1,14 @@
-package Task1;
+package tasks.task1_solid;
 
-import Task1.dip.Notification;
-import Task1.isp.InStoreOrder;
-import Task1.isp.OnlineOrder;
-import Task1.isp.Orderable;
-import Task1.lsp.ShoppingCart;
-import Task1.ocp.OrderProcessor;
-import Task1.ocp.SMSNotification;
-import Task1.srp.EmailNotification;
-import Task1.srp.Product;
+import tasks.task1_solid.dip.Notification;
+import tasks.task1_solid.isp.InStoreOrder;
+import tasks.task1_solid.isp.OnlineOrder;
+import tasks.task1_solid.isp.Orderable;
+import tasks.task1_solid.lsp.ShoppingCart;
+import tasks.task1_solid.ocp.OrderProcessor;
+import tasks.task1_solid.ocp.SMSNotification;
+import tasks.task1_solid.srp.EmailNotification;
+import tasks.task1_solid.srp.Product;
 
 public class Main {
   public static void main(String[] args) {

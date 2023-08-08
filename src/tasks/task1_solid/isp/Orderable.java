@@ -1,4 +1,4 @@
-package Task1.isp;
+package tasks.task1_solid.isp;
 
 // Interface Segregation Principle (ISP)
 public interface Orderable {

@@ -1,4 +1,4 @@
-package Task4;
+package tasks.task4_adapter;
 
 public interface AdvancedMediaPlayer {
   void playMp3(String fileName);

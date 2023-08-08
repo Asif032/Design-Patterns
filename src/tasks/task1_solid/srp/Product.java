@@ -1,4 +1,4 @@
-package Task1.srp;
+package tasks.task1_solid.srp;
 
 // Single Responsibility Principle (SRP)
 public class Product {

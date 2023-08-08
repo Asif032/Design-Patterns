@@ -1,4 +1,4 @@
-package Task4;
+package tasks.task4_adapter;
 
 public class MediaAdapter implements MediaPlayer {
   private AdvancedMediaPlayer advancedMediaPlayer;

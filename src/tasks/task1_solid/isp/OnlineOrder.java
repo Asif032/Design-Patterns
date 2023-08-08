@@ -1,7 +1,7 @@
-package Task1.isp;
+package tasks.task1_solid.isp;
 
-import Task1.lsp.ShoppingCart;
-import Task1.ocp.TenPercentDiscount;
+import tasks.task1_solid.lsp.ShoppingCart;
+import tasks.task1_solid.ocp.TenPercentDiscount;
 
 public class OnlineOrder implements Orderable {
   private ShoppingCart cart;
