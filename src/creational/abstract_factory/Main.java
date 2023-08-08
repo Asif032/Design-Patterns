@@ -16,7 +16,7 @@ public class Main {
 
     GUIFactory macFactory = new MacFactory();
     Button macButton = macFactory.createButton();
-    CheckBox macCheckBox = windowsFactory.createCheckBox();
+    CheckBox macCheckBox = macFactory.createCheckBox();
     macButton.render();
     macCheckBox.render();
   }
