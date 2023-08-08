@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef601a91-8bb2-410c-a5e8-8f83721297c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task3/Burger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <recent name="C:\Users\asif0\IdeaProjects\Design-Patterns\src\creational\abstract_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3.Main">
+  <component name="RunManager" selected="Application.Task4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.abstract_factory.Main" />
       <module name="Design-Patterns" />
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="behavioural.Iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioural.Iterator.Main" />
+    <configuration name="Task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioural.Iterator.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,17 +118,17 @@
     <list>
       <item itemvalue="Application.Task1.Main" />
       <item itemvalue="Application.Task3.Main" />
+      <item itemvalue="Application.Task4.Main" />
       <item itemvalue="Application.behavioural.memento.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.behavioural.Iterator.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task4.Main" />
         <item itemvalue="Application.Task3.Main" />
         <item itemvalue="Application.Task1.Main" />
         <item itemvalue="Application.behavioural.memento.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.behavioural.Iterator.Main" />
       </list>
     </recent_temporary>
   </component>
